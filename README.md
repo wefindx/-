@@ -12,4 +12,4 @@ metawiki.name2url('GH:wefindx/schema/email#gmail')
 ```
 
 ## Examples
-Check the [wiki](../../wiki/)
+Check the [wiki](../../wiki/).
