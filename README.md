@@ -1,12 +1,14 @@
-# [Web Object Schemas](../../wiki/)
+# WeFindX Schema
 
-The terminogy for `::wefindx` namespace of [MFT-1](https://book.mindey.com/metaformat/0002-data-object-format/0002-data-object-format.html).
-
-See the repo [terminology wiki](../../wiki/) for content.
+The terminogy for `GH:wefindx/schema` namespace for object schema definitions. See the repo [wiki](../../wiki/) for content.
 
 ## Usage
 
-The concepts of this wiki are available via URLs, for example, `https://github.com/wefindx/-/wiki/topic#new`, which can be shortened by `metawiki` (PyPI package) the below mutually equivalent expressions:
+Beyond the basic field types, which we specify in the [terms](../../../../wefindx/terms/wiki/), we often encounter larger data objects, the schemas of which we may want to store. This is the wiki, where you are encouraged to do it.
 
-- `metawiki.name_to_url('::wefindx/topic#new')`
-- `metawiki.ext2url('_wefindx@topic$new')`
+```python
+import metawiki
+metawiki.name2url('GH:wefindx/schema/email#gmail')
+```
+
+## Examples
