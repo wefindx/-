@@ -1,4 +1,5 @@
-{'base:title': {'*': ''},
+{'*': '',
+ 'base:title': {'*': ''},
  'base:css': {'*': ''},
  'base:extra-css': {'*': ''},
  'base:favicon': {'*': ''},
@@ -35,5 +36,4 @@
    'languages': [{'*': ''}],
    '*': ''}],
  'data:pagination': [{'current': {'*': ''}, 'count': {'*': ''}, '*': ''}],
- 'base:js': {'*': ''},
- '*': ''}
+ 'base:js': {'*': ''}}
